@@ -1,0 +1,15 @@
+server:
+  port: 9090
+  
+  
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: satya@123
+    url: jdbc:mysql://127.0.0.1:3306/satyakumar
+    username: satyakumar
+    
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
